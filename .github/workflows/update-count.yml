@@ -11,7 +11,7 @@ jobs:
       - name: Checkout DB
         uses: actions/checkout@v3
         with:
-          repository: [你的用户名]/my-counter-db
+          repository: dajohli007/my-counter-db
           path: db
 
       - name: Update Count
